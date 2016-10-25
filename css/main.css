@@ -8,9 +8,13 @@ html {
 }
 
 .link-card {
+  display: block;
   background-color: #dcd4cd;
   border: #9a816d 3px solid;
   border-radius: 3px;
+  padding: 0 .4em;
+  text-decoration: none;
+  color: #512200;
 }
 
 .para {
@@ -23,8 +27,8 @@ html {
   border-bottom: #9a816d 2px solid;
 }
 
-.link-card h2 {
-  padding: .5rem 1rem;
+h2 {
+  padding: .3rem 1rem;
   font-size: 1.5rem;
   font-family: Dosis, sans-serif;
   font-weight: bold;
@@ -56,11 +60,6 @@ dl {
   background-color: #cabdb2;
 }
 
-a {
-  text-decoration: none;
-  color: #512200;
-}
-
 .column {
   display: inline-block;
   line-height: 1.5;
@@ -68,13 +67,14 @@ a {
 }
 
 ol.first {
-  float: left;
+  display: inline;
   border-bottom: #9a816d 2px solid;
   list-style-type: none;
+  padding-left: .3rem;
 }
 
 ol.second {
-  float: right;
+  display: inline;
   border-bottom: #9a816d 2px solid;
   list-style-type: none;
 }
