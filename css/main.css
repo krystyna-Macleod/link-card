@@ -27,7 +27,7 @@ html {
   border-bottom: #9a816d 2px solid;
 }
 
-h2 {
+.link-card h2 {
   padding: .3rem 1rem;
   font-size: 1.5rem;
   font-family: Dosis, sans-serif;
