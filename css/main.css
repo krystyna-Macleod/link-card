@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  background-color: #dcd4cd;
+  border: #9a816d 3px solid;
+  border-radius: 3px;
+}
