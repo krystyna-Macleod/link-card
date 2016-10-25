@@ -22,3 +22,59 @@ html {
   margin: 1rem 0 0;
   border-bottom: #9a816d;
 }
+
+.link-card h2 {
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #512200;
+  margin: 0;
+}
+
+dl {
+  font-size: .875rem;
+  text-decoration: none;
+  font-family: Georgia;
+  padding: 0 1rem;
+  margin: 1rem;
+  text-align: left;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #785439;
+  color: #f0eee8;
+  padding: .4em .75em .5em;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Dosis, sans-serif;
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}
+
+.column {
+  display: inline-block;
+  line-height: 1.5;
+  text-align: left;
+}
+
+ol.first {
+  float: left;
+  border-bottom: #9a816d 2px solid;
+  list-style-type: none;
+}
+
+ol.second {
+  float: right;
+  border-bottom: #9a816d 2px solid;
+  list-style-type: none;
+}
