@@ -18,7 +18,8 @@ html {
 }
 
 .para {
-  padding: 0 1rem;
+  padding-right: .4em;
+  padding-left: .2em;
   padding-bottom: 1rem;
   font-size: .975rem;
   font-family: georgia;
