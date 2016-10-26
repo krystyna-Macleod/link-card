@@ -71,11 +71,15 @@ dt {
   display: inline-block;
   float: left;
   list-style-type: none;
-  padding-left: .3rem;
+  padding-left: 0;
 }
 
 dd {
   display: inline-block;
   float: right;
   list-style-type: none;
+}
+
+.first {
+  display: block;
 }
