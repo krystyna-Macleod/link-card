@@ -68,17 +68,18 @@ dl {
   border-bottom: #9a816d 2px solid;
 }
 
-.first {
+dt {
   display: inline-block;
   float: left;
   list-style-type: none;
   padding-left: 0;
 }
 
-.second {
+dd {
   display: inline-block;
   float: right;
   list-style-type: none;
+  text-align: left;
 }
 
 .first {
