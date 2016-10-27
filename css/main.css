@@ -70,16 +70,17 @@ dl {
 
 dt {
   display: inline-block;
-  float: left;
   list-style-type: none;
+  float: left;
+  width: 30%;
   padding-left: 0;
 }
 
 dd {
   display: inline-block;
-  float: right;
   list-style-type: none;
-  text-align: left;
+  float: left;
+  width: 30%;
 }
 
 .first {
