@@ -12,24 +12,22 @@ html {
   background-color: #dcd4cd;
   border: #9a816d 3px solid;
   border-radius: 3px;
-  padding: 0 .4em;
+  padding: .5em .73em;
   text-decoration: none;
   color: #512200;
 }
 
 .para {
-  padding-right: .4em;
-  padding-left: .2em;
+  padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: .975rem;
-  font-family: georgia;
+  font-size: 1rem;
+  font-family: Georgia;
   line-height: 1.5;
-  margin: 1rem 0 0;
+  margin: 0 0 .3em;
   border-bottom: #9a816d 2px solid;
 }
 
 .link-card h2 {
-  padding: .3rem 1rem;
   font-size: 1.5rem;
   font-family: Dosis, sans-serif;
   font-weight: bold;
@@ -37,24 +35,16 @@ html {
   margin: 0;
 }
 
-dl {
-  font-size: .875rem;
-  text-decoration: none;
-  font-family: Georgia;
-  padding: 0 1rem;
-  margin: 1rem;
-  text-align: left;
-}
-
 .btn {
+  display: inline-block;
+  vertical-align: center;
+  text-align: center;
   border-radius: 8px;
   background-color: #785439;
   color: #f0eee8;
   padding: .4em .75em .5em;
-  display: inline-block;
   font-size: 1rem;
   font-family: Dosis, sans-serif;
-  text-align: center;
 }
 
 .link-card:hover {
@@ -64,8 +54,11 @@ dl {
 .column {
   display: inline-block;
   line-height: 1.5;
-  text-align: left;
+  padding: 0;
+  padding-bottom: .75em;
   border-bottom: #9a816d 2px solid;
+  text-align: left;
+  margin: 0 0 1rem;
 }
 
 dt {
