@@ -68,14 +68,14 @@ dl {
   border-bottom: #9a816d 2px solid;
 }
 
-dt {
+.first {
   display: inline-block;
   float: left;
   list-style-type: none;
   padding-left: 0;
 }
 
-dd {
+.second {
   display: inline-block;
   float: right;
   list-style-type: none;
